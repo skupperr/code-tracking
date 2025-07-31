@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+  <link as="style"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B600%3B700%3B900"
+    onload="this.rel='stylesheet'" rel="stylesheet" />
+  <title>SyncUp</title>
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style type="text/tailwindcss">
+    :root {
+        --primary-color: #dce8f3;
+        --primary-color-text: #1e40af;
+        --primary-color-hover: #b0c7e0;
+        --secondary-color: #f3f4f6;
+        --accent-color: #2563eb;
+        --text-color-primary: #1f2937;
+        --text-color-secondary: #4b5563;
+        --border-color: #e5e7eb;
+        --success-color: #10b981;
+        --warning-color: #f59e0b;
+        --info-color: #3b82f6;
+        --danger-color: #ef4444;
+        --danger-color-hover: #dc2626;
+      }
+      .status-badge-completed {
+        background-color: var(--success-color);
+        color: white;
+      }
+      .status-badge-in-progress {
+        background-color: var(--warning-color);
+        color: white;
+      }
+      .status-badge-to-do {
+        background-color: var(--info-color);
+        color: white;
+      }
+      .nav-link-active {
+        color: var(--accent-color);
+        font-weight: 600;
+        border-bottom: 2px solid var(--accent-color);
+      }
+      .nav-link {
+        transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+        padding-bottom: 2px;
+      }
+      .nav-link:hover {
+        color: var(--accent-color);
+... (truncated for brevity)
